@@ -11,16 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobSDK", "WebJobSDK\WebJ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azfunctionapp", "Azfunctionapp\Azfunctionapp.csproj", "{99B32D1C-8E5E-42D8-9F16-FFE1ACC764BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobOperations", "BlobOperations\BlobOperations.csproj", "{AE40EE79-038F-418E-AC38-63229929CE3B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "CosmosDB.DotNetSDK\CosmosDB.DotNetSDK.csproj", "{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueOperations", "QueueOperations\QueueOperations.csproj", "{FF6F39EF-9577-4DB3-A134-435051F26684}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CosmosDb", "CosmosDb", "{464557FB-BB9A-4EDF-A436-28C9553A7BBA}"
-	ProjectSection(SolutionItems) = preProject
-		..\azure\CosmosDBData\QueryDemos.txt = ..\azure\CosmosDBData\QueryDemos.txt
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobOperations", "BlobOperations\BlobOperations.csproj", "{AE40EE79-038F-418E-AC38-63229929CE3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,20 +39,9 @@ Global
 		{AE40EE79-038F-418E-AC38-63229929CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE40EE79-038F-418E-AC38-63229929CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE40EE79-038F-418E-AC38-63229929CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF6F39EF-9577-4DB3-A134-435051F26684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF6F39EF-9577-4DB3-A134-435051F26684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF6F39EF-9577-4DB3-A134-435051F26684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF6F39EF-9577-4DB3-A134-435051F26684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6} = {464557FB-BB9A-4EDF-A436-28C9553A7BBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90374C11-3F77-4EAA-9B38-86B5DBBCAE78}
