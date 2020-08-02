@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobSDK", "WebJobSDK\WebJ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azfunctionapp", "Azfunctionapp\Azfunctionapp.csproj", "{99B32D1C-8E5E-42D8-9F16-FFE1ACC764BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobOperations", "BlobOperations\BlobOperations.csproj", "{AE40EE79-038F-418E-AC38-63229929CE3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobOperations", "BlobOperations\BlobOperations.csproj", "{AE40EE79-038F-418E-AC38-63229929CE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "CosmosDB.DotNetSDK\CosmosDB.DotNetSDK.csproj", "{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.SP_Triggers_UDFS", "CosmosDB.SP_Triggers_UDFS\CosmosDB.SP_Triggers_UDFS.csproj", "{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COSMOSDB.SDK", "COSMOSDB.SDK\COSMOSDB.SDK.csproj", "{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{AE40EE79-038F-418E-AC38-63229929CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE40EE79-038F-418E-AC38-63229929CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE40EE79-038F-418E-AC38-63229929CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
