@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.ApplicationInsights;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebAppWithAppInsight.Models;
@@ -18,13 +20,29 @@ namespace WebAppWithAppInsight.Controllers
             _logger = logger;
         }
 
+        private async Task CallService()
+        {
+            HttpClient client = new HttpClient();
+            await client.GetAsync("https://api.github.com/user").ConfigureAwait(false);
+        }
+
         public IActionResult Index()
         {
+            TelemetryClient client = new TelemetryClient();
+            client.TrackTrace("CustumTrace", new Dictionary<string, string>()
+            {
+                ["RequestId"] = "1234567",
+                ["SourceType"] = "Desktop"
+
+            });
+           
+            CallService().Wait();
             return View();
         }
 
         public IActionResult Privacy()
         {
+            throw new InvalidOperationException("Somehing Went Wrong");
             return View();
         }
 
