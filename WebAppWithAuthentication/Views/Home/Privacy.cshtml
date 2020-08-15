@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@if (User.Identity.IsAuthenticated)
+{
+    <h1>@ViewData["Title"]</h1>
+
+    <p>Use this page to detail your site's privacy policy.</p>
+}
+else
+{
+<span>You are not Authenticated. Please <a asp-controller="home" asp-action="index">Login.</a></span>
+}

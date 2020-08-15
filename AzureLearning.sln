@@ -17,7 +17,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "Cosmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.SP_Triggers_UDFS", "CosmosDB.SP_Triggers_UDFS\CosmosDB.SP_Triggers_UDFS.csproj", "{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COSMOSDB.SDK", "COSMOSDB.SDK\COSMOSDB.SDK.csproj", "{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COSMOSDB.SDK", "COSMOSDB.SDK\COSMOSDB.SDK.csproj", "{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisImplementation", "RedisImplementation\RedisImplementation.csproj", "{E12B6814-EBA4-4E43-B973-91E227FF29F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppWithAuthentication", "WebAppWithAuthentication\WebAppWithAuthentication.csproj", "{DC0D63DC-C86D-48B8-A5D6-8198C3034C0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallingASecureAPI", "CallingASecureAPI\CallingASecureAPI.csproj", "{EB47E709-FCC7-4906-B96E-AB83ECDED01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppWithAppInsight", "WebAppWithAppInsight\WebAppWithAppInsight.csproj", "{10257E22-D87E-48DF-8F91-4C0DCF223336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3B1195-2444-476E-83DF-DFA5C63FAF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12B6814-EBA4-4E43-B973-91E227FF29F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12B6814-EBA4-4E43-B973-91E227FF29F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12B6814-EBA4-4E43-B973-91E227FF29F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12B6814-EBA4-4E43-B973-91E227FF29F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0D63DC-C86D-48B8-A5D6-8198C3034C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0D63DC-C86D-48B8-A5D6-8198C3034C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0D63DC-C86D-48B8-A5D6-8198C3034C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0D63DC-C86D-48B8-A5D6-8198C3034C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB47E709-FCC7-4906-B96E-AB83ECDED01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB47E709-FCC7-4906-B96E-AB83ECDED01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB47E709-FCC7-4906-B96E-AB83ECDED01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB47E709-FCC7-4906-B96E-AB83ECDED01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10257E22-D87E-48DF-8F91-4C0DCF223336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10257E22-D87E-48DF-8F91-4C0DCF223336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10257E22-D87E-48DF-8F91-4C0DCF223336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10257E22-D87E-48DF-8F91-4C0DCF223336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
